@@ -1,0 +1,91 @@
+<!DOCTYPE html><html>
+<link rel="shortcut icon" href="{{ url_for('static', filename='storyteller-favicon.ico') }}">
+    <head>
+    <title>Storyteller - Tadeas Paule</title>
+    <script src="/static/storyteller/p5.min.js"></script>
+    <script src="/static/storyteller/p5.dom.min.js"></script>
+    <script src="/static/storyteller/p5.sound.min.js"></script>
+    <script src="/static/storyteller/p5.sound.min.js"></script>
+    <script src="/static/storyteller/FileSaver.js"></script>
+    <script src="/static/storyteller/jszip.min.js"></script>
+    <script src="/static/jquery-3.3.1.js"></script>
+    <link rel="stylesheet" type="text/css" href="/static/storyteller/style.css">
+    <meta charset="utf-8">
+
+  </head>
+  <body>
+    <script src="/static/storyteller/sketch.js"></script>
+    <div class="topmenudiv" id="topmenudiv">
+      <p class="topmenuitem" id="help">Help</p>
+      <p class="topmenuitem" id="stats">Stats</p>
+      <p class="topmenuitem" id="theme" onclick="toggleThemeDiv();">Theme</p>
+      <p class="topmenuitem" id="export">Export</p>
+      <input type="file" id="fileElem" multiple="" accept="image/*" style="display:none" onchange="handleFiles(this.files)">
+			<p class="topmenuitem" id="fileSelect">Import</p>
+
+    </div>
+
+    <div class="mainthemediv">
+      <div class="onecolordiv">
+        <p class="colorname">Main background</p>
+        <input type="color" id="colorBG" class="colorinput" onchange="updateTheme();">
+      </div>
+      <div class="onecolordiv">
+        <p class="colorname">Menu color</p>
+        <input type="color" id="color1" class="colorinput" onchange="updateTheme();">
+      </div>
+      <div class="onecolordiv">
+        <p class="colorname">Text background</p>
+        <input type="color" id="color2" class="colorinput" onchange="updateTheme();">
+      </div>
+      <div class="onecolordiv">
+        <p class="colorname">Button background</p>
+        <input type="color" id="color3" class="colorinput" onchange="updateTheme();">
+      </div>
+      <div class="onecolordiv">
+        <p class="colorname">Button border</p>
+        <input type="color" id="color4" class="colorinput" onchange="updateTheme();">
+      </div>
+      <div class="onecolordiv">
+        <p class="colorname">Menu background 2</p>
+        <input type="color" id="color5" class="colorinput" onchange="updateTheme();">
+      </div>
+      <div class="onecolordiv">
+        <p class="colorname">Menu border 2</p>
+        <input type="color" id="color6" class="colorinput" onchange="updateTheme();">
+      </div>
+      <div class="onecolordiv">
+        <p class="colorname">Normal font</p>
+        <input type="color" id="color7" class="colorinput" onchange="updateTheme();">
+      </div>
+      <div class="onecolordiv">
+        <p class="colorname">Selected node font</p>
+        <input type="color" id="color8" class="colorinput" onchange="updateTheme();">
+      </div>
+      <div class="onecolordiv">
+        <p class="colorname">Navigation font</p>
+        <input type="color" id="color9" class="colorinput" onchange="updateTheme();">
+      </div>
+      <div class="onecolordiv">
+          <p id="whitearrows" class="colorname" onclick="changeArrowColor('white');" style="cursor:pointer;">White arrows</p>
+          <p id="blackarrows" class="colorname" onclick="changeArrowColor('black');" style="margin-left: 20px;text-decoration: underline;cursor:pointer;">Black arrows</p>
+      </div>
+    </div>
+
+
+
+    <div class="nodediv">
+      <button class="addnodebutton">Add node</button>
+    </div>
+
+
+    <h2 class="nodeheader" contenteditable="">Node1</h2>
+
+    <div class="textdiv">
+      <textarea class="maintextarea"></textarea>
+    </div>
+
+    <div id="choicesdiv"></div>
+
+
+</body></html>
