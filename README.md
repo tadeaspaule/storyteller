@@ -20,3 +20,6 @@ Storyteller is meant to be an easy way to tell a branching story, where the read
 - The starting node can have the reader choosing whether they're a mage, warrior, etc.
 - Then, based on their choice, you set the player's 'class' stat
 - Afterwards, you can restrict choices based on this class stat, for example only wizards can go study magic
+
+### You can use this storytelling system for all kinds of stories, be it fantasy, sci-fi, mystery, or a straight-up game, the limit is your imagination!
+### I hope you enjoy using Storyteller
