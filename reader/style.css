@@ -1,0 +1,74 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+.nodeheader {
+  display: block;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 30px;
+
+  font-family: "Courier New", Courier, monospace;
+  white-space: normal;
+  word-wrap: break-word;
+}
+
+.textdiv {
+  display: block;
+  width: 50%;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  text-align: center;
+  padding:10px;
+  background: #FCF3D4;
+  border-radius: 5px;
+}
+
+.maintextarea {
+  background: #0000;
+  color: #000;
+  resize: none;
+  width: 95%;
+  height: 90%;
+  font-size: 18px;
+	margin: auto;
+  display: block;
+  border:none;
+  padding:6px;
+}
+
+.choicediv {
+  display: block;
+  width: 50%;
+  min-height: 10px;
+  overflow: hidden;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  text-align: center;
+  background: #DDD;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #000;
+  border-radius: 17px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+
+.choicetext {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 15px;
+  cursor: pointer;
+}
