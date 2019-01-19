@@ -1,2 +1,2 @@
-# storyteller
-A web-based tool to easily write and publish choose-your-own-adventure style stories on the web.
+# Storyteller
+## Use the online editor <a href=http://tpaule.pythonanywhere.com/storyteller>here</a>
