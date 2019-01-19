@@ -1,5 +1,5 @@
 # Storyteller
-#### Use the online editor <a rel="noopener noreferrer"  href="http://tpaule.pythonanywhere.com/storyteller">here</a>
+#### To start telling your stories, use the online editor <a rel="noopener noreferrer"  href="http://tpaule.pythonanywhere.com/storyteller">here</a>
 
 ## Folders briefly described:
 ### Editor
